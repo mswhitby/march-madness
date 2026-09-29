@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.team-button {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.team-button:hover {
+  background: #ddd;
+}
+
+.team-button.selected {
+  background: #222;
+  color: white;
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #444;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #eee;
+}

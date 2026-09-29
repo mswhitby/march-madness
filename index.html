@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>March Madness Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏀 March Madness Predictor</h1>
+    <p>Make your predictions and earn points!</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Make Your Picks</h2>
+
+      <div class="game">
+        <h3>Round of 64</h3>
+        <button class="team-button" data-team="Duke">Duke</button>
+        <span>vs</span>
+        <button class="team-button" data-team="Kansas">Kansas</button>
+      </div>
+
+      <div class="game">
+        <h3>Round of 64</h3>
+        <button class="team-button" data-team="UConn">UConn</button>
+        <span>vs</span>
+        <button class="team-button" data-team="Arizona">Arizona</button>
+      </div>
+
+      <button class="submit" id="submitPicks">Submit Picks</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>🏆 Leaderboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Student</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Jordan</td><td>25</td></tr>
+          <tr><td>2</td><td>Maya</td><td>20</td></tr>
+          <tr><td>3</td><td>Chris</td><td>15</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
